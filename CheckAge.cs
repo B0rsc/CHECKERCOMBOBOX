@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace ComboBoxProject
 {
-    public class OwnColor
+    internal class CheckAge
     {
 
-        public string NameOfColor { get; set; }
-        public string NameOfColor_eng { get; set; }
+        public bool AgeVal ()
+        {
+            
 
+            return true;
+        }
 
 
     }
