@@ -3,11 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBoxProject", "ComboBoxProject.csproj", "{5A9F8D91-E4D0-48C5-B451-5339DE5077D1}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zadanie 1", "Zadanie 1", "{8264F8EC-C516-4893-BA18-57D8AD5FA170}"
+	ProjectSection(SolutionItems) = preProject
+		..\Zadanie1WPF\MainWindow.xaml.cs = ..\Zadanie1WPF\MainWindow.xaml.cs
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie1WPF", "..\Zadanie1WPF\Zadanie1WPF.csproj", "{E8DC21EC-BB00-4546-B2F9-AD604CAB78A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zadanie1WPF", "..\Zadanie1WPF\Zadanie1WPF.csproj", "{E8DC21EC-BB00-4546-B2F9-AD604CAB78A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +16,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5A9F8D91-E4D0-48C5-B451-5339DE5077D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A9F8D91-E4D0-48C5-B451-5339DE5077D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A9F8D91-E4D0-48C5-B451-5339DE5077D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A9F8D91-E4D0-48C5-B451-5339DE5077D1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E8DC21EC-BB00-4546-B2F9-AD604CAB78A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E8DC21EC-BB00-4546-B2F9-AD604CAB78A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8DC21EC-BB00-4546-B2F9-AD604CAB78A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
